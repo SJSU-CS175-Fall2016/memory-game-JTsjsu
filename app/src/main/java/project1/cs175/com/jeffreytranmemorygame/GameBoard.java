@@ -235,6 +235,10 @@ public class GameBoard extends AppCompatActivity {
                 al.get(i-1).setBackgroundResource(R.drawable.blank);
             }
         }
+        if (score == 10) {
+            pointsText.setText("Game Over");
+            points.setText(": You Win!");
+        }
     }
 
     public void resetBoard(View view) {
