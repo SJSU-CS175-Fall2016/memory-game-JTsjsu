@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleText"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="@string/memgame" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/titleText"
+            android:layout_above="@+id/bottombar">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/titleText"
+            android:fillViewport="true"
+            android:columnCount="4"
+            android:rowCount="5"
+            android:id="@+id/gridLayout">
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_height="75dp"
+                android:layout_rowSpan="1"
+                android:layout_gravity="fill_horizontal"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:background="@drawable/pokeball"
+                android:id="@+id/t1"
+                android:onClick="flip" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_rowSpan="1"
+                android:layout_height="75dp"
+                android:layout_gravity="fill_horizontal"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:background="@drawable/pokeball"
+                android:id="@+id/t2"
+                android:onClick="flip" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_rowSpan="1"
+                android:gravity="center"
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:background="@drawable/pokeball"
+                android:onClick="flip"
+                android:id="@+id/t3" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_rowSpan="1"
+                android:gravity="center"
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:background="@drawable/pokeball"
+                android:onClick="flip"
+                android:id="@+id/t4" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_columnWeight="1"
+                android:layout_height="75dp"
+                android:layout_gravity="fill_horizontal"
+                android:layout_rowSpan="1"
+                android:gravity="center"
+                android:background="@drawable/pokeball"
+                android:onClick="flip"
+                android:id="@+id/t5" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_rowSpan="1"
+                android:layout_gravity="fill"
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:background="@drawable/pokeball"
+                android:onClick="flip"
+                android:id="@+id/t6" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_rowSpan="1"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:background="@drawable/pokeball"
+                android:onClick="flip"
+                android:id="@+id/t7" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_rowSpan="1"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:background="@drawable/pokeball"
+                android:onClick="flip"
+                android:id="@+id/t8" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_height="75dp"
+                android:layout_rowSpan="1"
+                android:layout_gravity="fill_horizontal"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:background="@drawable/pokeball"
+                android:onClick="flip"
+                android:id="@+id/t9" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_rowSpan="1"
+                android:layout_height="75dp"
+                android:layout_gravity="fill_horizontal"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:background="@drawable/pokeball"
+                android:onClick="flip"
+                android:id="@+id/t10" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_rowSpan="1"
+                android:gravity="center"
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:background="@drawable/pokeball"
+                android:onClick="flip"
+                android:id="@+id/t11" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_rowSpan="1"
+                android:gravity="center"
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:background="@drawable/pokeball"
+                android:onClick="flip"
+                android:id="@+id/t12" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_columnWeight="1"
+                android:layout_height="75dp"
+                android:layout_gravity="fill_horizontal"
+                android:layout_rowSpan="1"
+                android:gravity="center"
+                android:background="@drawable/pokeball"
+                android:onClick="flip"
+                android:id="@+id/t13" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_rowSpan="1"
+                android:layout_gravity="fill"
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:background="@drawable/pokeball"
+                android:onClick="flip"
+                android:id="@+id/t14" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_rowSpan="1"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:background="@drawable/pokeball"
+                android:onClick="flip"
+                android:id="@+id/t15" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_rowSpan="1"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:background="@drawable/pokeball"
+                android:onClick="flip"
+                android:id="@+id/t16" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_columnWeight="1"
+                android:layout_height="75dp"
+                android:layout_gravity="fill_horizontal"
+                android:layout_rowSpan="1"
+                android:gravity="center"
+                android:background="@drawable/pokeball"
+                android:onClick="flip"
+                android:id="@+id/t17" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_columnWeight="1"
+                android:layout_height="75dp"
+                android:layout_gravity="fill_horizontal"
+                android:layout_rowSpan="1"
+                android:gravity="center"
+                android:background="@drawable/pokeball"
+                android:onClick="flip"
+                android:id="@+id/t18" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_columnWeight="1"
+                android:layout_height="75dp"
+                android:layout_gravity="fill_horizontal"
+                android:layout_rowSpan="1"
+                android:gravity="center"
+                android:background="@drawable/pokeball"
+                android:onClick="flip"
+                android:id="@+id/t19" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_columnWeight="1"
+                android:layout_height="75dp"
+                android:layout_gravity="fill_horizontal"
+                android:layout_rowSpan="1"
+                android:gravity="center"
+                android:background="@drawable/pokeball"
+                android:onClick="flip"
+                android:id="@+id/t20" />
+
+        </GridLayout>
+        </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottombar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scoreText"
+            android:layout_weight="2"
+            android:textAlignment="textEnd"
+            android:textSize="20sp"
+            android:id="@+id/pointsText"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/score"
+            android:textSize="20sp"
+            android:id="@+id/currentScore" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset"
+            android:id="@+id/reset"
+            android:onClick="resetBoard"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</RelativeLayout>

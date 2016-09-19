@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JeffreyTranMemoryGame</string>
+    <string name="memgame">Memory Game</string>
+    <string name="scoreText">Points:</string>
+    <string name="score">0</string>
+    <string name="welcomeTo">Welcome to Memory Game</string>
+    <string name="play">PLAY</string>
+    <string name="rules">RULES</string>
+    <string name="darules">
+        Goal is to match all 10 different pokemons. Click on the pokeballs to check which pokemon is inside. There is a short delay while checking if pairs match so player can see which pokemon was selected.
+    </string>
+    <string name="reset">Reset Board</string>
+</resources>
