@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         final Intent intent = new Intent(MainActivity.this,
                 GameBoard.class);
         new AlertDialog.Builder(MainActivity.this).setTitle("Continue?").setMessage("Continue where you left off?")
-                .setPositiveButton("yes", new DialogInterface.OnClickListener() {
+                .setPositiveButton("no", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         intent.putExtra("startover", true);
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
                     }
                 })
-                .setNegativeButton("no", new DialogInterface.OnClickListener() {
+                .setNegativeButton("yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         intent.putExtra("startover", false);
